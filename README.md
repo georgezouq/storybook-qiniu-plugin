@@ -20,6 +20,8 @@ yarn add storybook-qiniu-webpack-plugin --dev
 **.storybook/main.js**
 
 ```Javascript
+const StorybookQiniuWebpackPlugin = require('storybook-qiniu-webpack-plugin');
+
 module.exports = {
   webpackFinal: async (config, { configType }) => {
     config.plugins.push(new QiniuWebpackPlugin({
