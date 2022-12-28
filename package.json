@@ -1,0 +1,40 @@
+{
+  "name": "storybook-qiniu-webpack-plugin",
+  "version": "0.0.8",
+  "description": "支持将 StoryBook 的 Bundle 文件 上传至七牛CDN",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgezouq/storybook-qiniu-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "qiniu"
+  ],
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "author": "GeorgeZou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georgezouq/storybook-qiniu-plugin/issues"
+  },
+  "homepage": "https://github.com/georgezouq/storybook-qiniu-plugin#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "lodash.difference": "^4.5.0",
+    "map-limit": "^0.0.1",
+    "micromatch": "^4.0.2",
+    "ora": "^2.0.0",
+    "qiniu": "^7.3.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "revalidator": "^0.3.1"
+  },
+  "files" : [
+    "src"
+  ]
+}
